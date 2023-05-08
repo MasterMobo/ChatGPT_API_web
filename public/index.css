@@ -1,0 +1,26 @@
+#messages {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 50vw;
+}
+
+.chat-entry {
+    max-width: 200px;
+    font-size: 1.2rem;
+    padding: 1.5rem;
+}
+
+.user {
+    background-color: rgb(61, 61, 213);
+    color: white;
+    align-self: end;
+    border-radius: 20px 20px 0 20px;
+}
+
+.assistant {
+    background-color: gray;
+    color: white;
+    align-self: start;
+    border-radius: 20px 20px 20px 0;
+}
