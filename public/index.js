@@ -23,4 +23,12 @@ const createNewChatEntry = (role, content) => {
     chatEntry.classList.add(role);
     chatEntry.innerText = content;
     messages.appendChild(chatEntry);
+    setScrollPosition();
 };
+
+const setScrollPosition = () => {
+    const messages = document.querySelector("#messages");
+    if (messages.scrollHeight > 0) {
+        messages.scrollTop = messages.scrollHeight;
+    }
+}

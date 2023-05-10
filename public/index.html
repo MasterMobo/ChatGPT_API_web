@@ -8,10 +8,18 @@
         <link rel="stylesheet" href="index.css" />
     </head>
     <body>
-        <h1>Chat with me!</h1>
-        <input type="text" name="user_message" id="user_message" />
-        <button id="send_message">Send</button>
+        <img class="background" src="lazada_background.png" alt="background img">
+        <div class="icon"></div>
+        <div class="wrapper">
+            <div class="title">
+                <h1>Chat with me!</h1>
+            </div>
+            <div id="messages"></div>
+            <div class="user_message">
+                <input type="text" name="user_message" id="user_message" placeholder="Ask me anything"/>
+                <button id="send_message"><img src="send_icon.png" alt="Send"></button>
+            </div>
+        </div>
         <script src="index.js"></script>
-        <div id="messages"></div>
     </body>
 </html>
