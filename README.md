@@ -1,6 +1,7 @@
 # ChatGPT_API_web
 
-This is the prototype for UCD Assessment 2 by Group 7
+This is the prototype for UCD Assessment 2 by Group 7.
+
 To activate the prototype, please follow these steps:
 
 -   Clone this repository (or download as zip file)
